@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaini&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kameron:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family:"Jaini", "Inter" , system-ui, sans-serif;
+}
+
+.inter-text {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*/* styles.css or global.css */
+.scrollbar-purple::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar-purple::-webkit-scrollbar-track {
+  background: transparent; /* track transparent */
+}
+
+.scrollbar-purple::-webkit-scrollbar-thumb {
+  background-color: transparent; /* fully transparent */
+  border: 2px solid rgba(57, 56, 62, 0.9); /* brighter outline on hover */
+  border-radius: 9999px; /* fully rounded */
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.scrollbar-purple::-webkit-scrollbar-thumb:hover {
+  border-color: rgba(57, 56, 62, 0.9); /* brighter outline on hover */
+  transform: scaleX(1.2); /* optional: slight width increase on hover */
+}
+
+.scrollbar-purple::-webkit-scrollbar-corner {
+  background: transparent; /* corner transparent */
+}
+
+body {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+/* 
+@layer base {
+  body {
+    @apply bg-black;
+  }
+} */
